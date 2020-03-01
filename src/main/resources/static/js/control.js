@@ -9,6 +9,14 @@ var control = {
                 $('.nav-item').removeClass('active');
                 $(this).addClass('active');
             });
+        },
+        
+        loadHtml: function (html) {
+            switch (html) {
+                case 'board':
+                    $('.custom-container').load('board/board.html');
+                    break;
+            }
         }
     },
 }
