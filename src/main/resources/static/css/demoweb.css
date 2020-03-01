@@ -1,0 +1,11 @@
+.custom-container {
+    width: 100%;
+}
+
+.custom-footer {
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    min-height: 800px;
+}
