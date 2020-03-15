@@ -15,4 +15,9 @@ public class MainController {
     public String board() {
         return "board/board.html";
     }
+
+    @GetMapping("/about")
+    public String about() {
+        return "etc/about.html";
+    }
 }
