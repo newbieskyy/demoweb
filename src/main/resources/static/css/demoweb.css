@@ -1,0 +1,16 @@
+.custom-container {
+    width: 100%;
+}
+
+.custom-footer {
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 2em 4em;
+}
+
+.jumbotron {
+    min-height: 800px;
+    background-color: #ffffff;
+}
